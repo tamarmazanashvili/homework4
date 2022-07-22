@@ -1,0 +1,311 @@
+/*styling for page "Home"*/
+
+.heading{
+    text-align: center;
+    margin-top: 72px;
+    font-size: 24px;
+    font-family: 'firago-medium';
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'firago-medium';
+    src: url(../fonts/FiraGO-Medium.ttf);
+}    
+@font-face {
+    font-family: 'poppins-Bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}    
+@font-face {
+    font-family: 'poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}      
+@font-face {
+    font-family: 'Malayalam';
+    src: url(../fonts/Malayalam\ MN.ttc);
+}    
+@font-face {
+    font-family: 'FiraGO-Light';
+    src: url(../fonts/FiraGO-Light.otf);
+}
+@font-face {
+    font-family: 'AndadaPro-Bold';
+    src: url(../fonts/AndadaPro-Bold.ttf);
+}
+@font-face {
+    font-family: 'AndadaPro-SemiBold';
+    src: url(../fonts/AndadaPro-SemiBold.ttf);
+}
+
+
+
+ol{
+    list-style: none;
+    font-family: 'poppins-medium';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.horizontal{
+    display: inline;
+}
+.youbuy{
+    margin-left: 126px;
+    font-size: 26px;
+    font-family: 'Malayalam';
+}
+.home{
+    margin-left: 350px;
+    margin-top: 30px;
+
+}
+.about{
+    margin-left: 51px;
+}
+.blog{
+    margin-left: 52px;
+}
+
+.contact{
+    margin-left: 52px;
+} 
+
+
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black ;
+}
+.first{
+    width: 333px;
+    height: 487px;
+    border: 1px solid black;
+    padding: 11px;
+    margin-left: 126px;
+    display: inline-block;
+    
+}
+.second{
+    width: 333px;
+    height: 487px;
+    border: 1px solid black;
+    padding: 11px;
+    margin-left: 112px;
+    display: inline-block;
+}
+.third{ 
+    width: 333px;
+    height: 487px;
+    border: 1px solid black;
+    padding: 11px;
+    margin-left: 90px;
+    display: inline-block;
+}
+.title{
+    margin-top: 15px;
+    font-family: 'poppins-Bold';
+
+}
+.description{
+    margin-top: 13.48px;
+    font-family: 'poppins-Regular';
+}
+.button{
+    margin-right: 90px;
+    font-size: 12px;
+    width: 118px;
+    height: 30px;
+    font-family: 'poppins-Regular';
+}
+section{
+    margin-top: 120px;   
+    margin-bottom: 237px;
+}
+img{
+    width: 100%;
+}
+
+
+.verticalbullets{
+    display: inline-block;
+    margin-right: 85px;
+    list-style-type: disc;
+    margin-bottom: 40px; 
+    
+}
+
+.verticalone{
+    list-style-type: disc;
+    margin-left: 131px;
+    margin-bottom: 20px;
+    
+}
+
+.verticaltwo{
+    list-style-type: disc;
+    margin-bottom: 20px;
+    margin-left: 150px;
+
+}
+
+.verticalthree{
+    list-style-type: disc;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+
+.moreproduct{
+    margin-bottom: 90px;
+    margin-left: 1178px;
+    text-decoration: underline;
+    font-family: 'FiraGO-Light';
+    font-size: 16px; 
+    font-weight: 600;
+    
+}
+
+
+
+/*styling for page "about the company"*/
+@font-face {
+    font-family: 'opensans-semibold';
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: 'opensans-semibolditalic';
+    src: url(../fonts/OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+    font-family: 'opensans-Regularitalic';
+    src: url(../fonts/OpenSans-RegularItalic.ttf);
+}
+.aboutus{
+    text-align: center;
+    margin-top: 112px;
+    color: darkred;
+    margin-bottom: 118px;
+    font-size: 40px;
+    font-family: 'opensans-semibold';
+}
+.div{
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 126px;
+    font-size: 20px;
+    font-family: 'opensans-semibold';
+}
+.tenth{
+    margin-top: 59px;
+    font-family: 'opensans-Regularitalic';
+    margin-left: 500px;
+}
+.aboutusimage{
+   margin-left: 800px;
+   max-width: fit-content;
+
+
+}
+
+
+
+
+/*styling for page "Contact Us"*/
+
+.contactus{
+    margin-top: 112px;
+    color: darkred;
+    margin-bottom: 118px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'AndadaPro-Bold';
+}
+.details{
+    margin-top: 35px;
+    margin-left: 175px;
+    font-size: 20px;
+}
+.address{
+    text-transform: capitalize;
+    font-family: 'AndadaPro-SemiBold';
+    margin-left: 980px;
+    
+}
+.mail{
+    text-decoration-line: underline;
+    font-family: 'AndadaPro-SemiBold';
+    font-style: italic;
+    margin-left: 300px;
+
+}
+.number{
+    font-family: 'AndadaPro-SemiBold';
+    margin-left: 300px;
+}
+.time{
+    font-family: 'AndadaPro-SemiBold';
+    margin-left: 990px;
+}
+
+.map{
+    max-width: fit-content;
+    margin-left: 260px;
+   
+}
+
+/*styling for page "Blog"*/
+
+.blog-heading{
+    font-family: 'firago-light';
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 47px;
+    margin-left: 94px;
+}
+
+.blog-page{
+    
+    display: inline;
+    margin-left: 30px;
+    font-family: 'firago-light';
+    font-weight: 600;
+    
+}
+.moda{
+    margin-left: 445px;
+}
+
+.silamaze{
+    margin-left: 65px;
+}
+
+.xelovneba{
+    margin-left: 65px;
+
+}
+.mogzauroba{
+    margin-left: 65px;
+}
+
+
+.blog1{
+    margin-left: 94px;
+    max-width: fit-content;
+    vertical-align: 500px;
+}
+.blog2{
+    margin-left: 94px;
+    vertical-align: 200px;
+    max-width: fit-content;
+    
+
+}
+.blog-images{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    
+}
